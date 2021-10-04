@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
   <style>
-    .bg-peach {
+    .bg-tile {
       background: #f1f5fb;
     }
 
@@ -30,6 +30,10 @@
     .tile.is-child {
       border: #6eb6d8 .5rem double !important;
     }
+
+    .highlight-image {
+      border: #6eb6d8 .5rem double !important;
+    }
   </style>
 </head>
 
@@ -38,13 +42,22 @@
     <div class="container has-text-centered">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
-          <div class="tile is-child bg-peach px-2 py-6">
-            <p class="title">
-              Hi! I'm Sriya
-            </p>
-            <p class="subtitle">
-              I 💘 Physics & Reading Books.
-            </p>
+          <div class="tile is-child bg-tile px-2 py-6">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <p class="title">
+                  Hi! I'm Sriya
+                </p>
+                <p class="subtitle">
+                  I 💘 Physics & Reading Books.
+                </p>
+              </div>
+              <div class="column is-flex is-align-items-center is-justify-content-center	">
+                <figure class="image is-128x128">
+                  <img class="is-rounded highlight-image" src="assets/img/lady-with-attitude.webp" />
+                </figure>
+              </div>
+            </div>
             <p class="subtitle">
               I'm an avid reader with a passion for physics. I value academics highly. I like exploring places and plan
               to backpack around Europe.
@@ -52,7 +65,7 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child bg-peach px-2 py-6">
+          <div class="tile is-child bg-tile px-2 py-6">
             <p class="title">
               🏫 Education
             </p>
@@ -72,7 +85,7 @@
     <div class="container has-text-centered">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
-          <div class="tile is-child bg-peach px-2 py-6">
+          <div class="tile is-child bg-tile px-2 py-6">
             <p class="title">
               👩‍🔬 Interests
             </p>
@@ -97,7 +110,7 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child bg-peach px-2 py-6">
+          <div class="tile is-child bg-tile px-2 py-6">
             <p class="title">
               🧾 Projects & Research
             </p>
@@ -116,7 +129,7 @@
     <div class="container has-text-centered">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
-          <div class="tile is-child bg-peach px-2 py-6">
+          <div class="tile is-child bg-tile px-2 py-6">
             <p class="title">
               📕 Favourite Books
             </p>
@@ -130,7 +143,7 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child bg-peach px-2 py-6">
+          <div class="tile is-child bg-tile px-2 py-6">
             <p class="title">
               📧 Connect
             </p>
